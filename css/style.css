@@ -1,0 +1,26 @@
+body{
+	font-size: 14px;
+	line-height: 24px;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow";/*там шрифт написан так PTSans NarrowBold*/
+}
+
+h2{
+	font-size: 30px;
+	/*line-height: 21px;в фотошопе стоит авто, я померяла высоту букв они 21 (но это же вроде не то), странно, в общем не знаю что тут писать*/
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow";
+}
+
+.features-title{
+	font-size: 30px;
+	/*line-height: 21px;в фотошопе стоит авто, я померяла высоту букв они 21 (но это же вроде не то), странно, в общем не знаю что тут писать*/
+	color: #f7f4f1;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: "PT Sans Narrow";
+}
