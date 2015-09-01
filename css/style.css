@@ -58,7 +58,7 @@ nav li {
 }
 
 a{
-     text-decoration:none;
+   text-decoration:none;
 }
 
 nav a {
@@ -179,9 +179,9 @@ nav a {
 } 
 
 h1{
-   font-size: 30px;
    margin-bottom: 25px;/*ориентировочно*/
    margin-left: 130px;/*ориентировочно*/
+   font-size: 30px;
 }
 
 .container.item {
@@ -215,15 +215,17 @@ h1{
 
 .info-column{
    float:right;
+   width: 400px;
    margin-right:100px;/*ориентировочно*/
    padding-top: 25px;/*ориентировочно*/
+
    background-color: rgba(250,0,0,0.5);
-   width: 400px;
 }
 
 .availability{
    float:left;
    margin-bottom: 25px;/*ориентировочно*/
+
    background-color: rgba(21,125,71,0.5);
 }
 
@@ -235,14 +237,125 @@ h1{
 .accessory-info{
    margin-bottom: 60px;/*ориентировочно*/
    clear:both;
+
    background-color: rgba(247,243,20,0.5);
 }
 
-.buy{
+.buy.item{
    margin-bottom: 50px;/*ориентировочно*/
+
    background-color: rgba(0,0,250,0.5);
 }
 
 .consist{
    background-color: rgba(247,243,20,0.5);
+}
+/*shop*/
+.body-shop {
+   min-width: 1200px;
+
+   background-image: url('../barbershop-shop.jpg');
+   background-repeat: no-repeat;
+   background-position: center top;
+   background-size: 1200px auto;
+}
+
+.container.shop {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar{
+   float:left;
+   width:170px;
+   margin-left: 130px;
+
+   background-color: rgba(0,0,250,0.5);
+}
+
+.content{
+   float:right;
+   margin-bottom: 40px;
+   margin-right: 150px;
+   width:700px;
+   
+   font-size:0;
+
+   background-color: rgba(250,0,0,0.5);
+}
+
+.manufacturer{
+   margin-bottom: 50px;
+
+   background-color: rgba(0,250,0,0.5);
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+   display: none;
+}
+
+label{
+   display:block;
+   margin-bottom: 13px;
+}
+
+.manufacturer-title{
+   margin-bottom: 30px;
+}
+
+.groups{
+   margin-bottom: 50px;
+
+   background-color: rgba(250,0,0,0.5);
+}
+
+.group-title{
+   margin-bottom: 30px;
+}
+
+.item-shop{
+   display: inline-block;
+   width:220px;
+   height:300px;
+   margin-right:20px;
+   vertical-align: middle;
+
+   font-size: 14px;
+
+   background-color: rgba(247,243,20,0.5);
+}
+
+.item-shop:nth-child(3n){
+   margin-right:0px;
+}
+
+.product-title{
+   margin-bottom: 20px;
+}
+
+.product,
+.firm{
+   display: block;
+}
+.buy.shop{
+   background-color: rgba(0,250,0,0.5);   
+}
+
+.paginator{
+   width:200px;
+   margin-left: 450px;
+   margin-bottom: 50px;
+
+   font-size: 0;
+
+   background-color: rgba(151,29,145,0.5);
+}
+
+.paginator a{
+   display: inline-block;
+   width:50px;
+   height: 50px;
+   
+   font-size: 14px;
 }
